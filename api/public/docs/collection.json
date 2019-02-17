@@ -1,0 +1,87 @@
+{
+   "variables":[
+
+   ],
+   "info":{
+      "name":"Laravel API",
+      "_postman_id":"6acfa519-7e7b-4fe6-a335-53c6b1e9c2d1",
+      "description":"",
+      "schema":"https:\/\/schema.getpostman.com\/json\/collection\/v2.0.0\/collection.json"
+   },
+   "item":[
+      {
+         "name":"general",
+         "description":"",
+         "item":[
+            {
+               "name":"http:\/\/localhost\/api\/api\/receive",
+               "request":{
+                  "url":"http:\/\/localhost\/api\/api\/receive",
+                  "method":"POST",
+                  "body":{
+                     "mode":"formdata",
+                     "formdata":[
+
+                     ]
+                  },
+                  "description":"",
+                  "response":[
+
+                  ]
+               }
+            },
+            {
+               "name":"http:\/\/localhost\/api\/receive",
+               "request":{
+                  "url":"http:\/\/localhost\/api\/receive",
+                  "method":"POST",
+                  "body":{
+                     "mode":"formdata",
+                     "formdata":[
+
+                     ]
+                  },
+                  "description":"",
+                  "response":[
+
+                  ]
+               }
+            },
+            {
+               "name":"http:\/\/localhost\/api\/studentActivityReport",
+               "request":{
+                  "url":"http:\/\/localhost\/api\/studentActivityReport",
+                  "method":"POST",
+                  "body":{
+                     "mode":"formdata",
+                     "formdata":[
+
+                     ]
+                  },
+                  "description":"",
+                  "response":[
+
+                  ]
+               }
+            },
+            {
+               "name":"http:\/\/localhost\/api\/getMaxActivityReport",
+               "request":{
+                  "url":"http:\/\/localhost\/api\/getMaxActivityReport",
+                  "method":"GET",
+                  "body":{
+                     "mode":"formdata",
+                     "formdata":[
+
+                     ]
+                  },
+                  "description":"",
+                  "response":[
+
+                  ]
+               }
+            }
+         ]
+      }
+   ]
+}

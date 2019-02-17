@@ -16,6 +16,8 @@ services:
     ports:
       - "8083:3306"
 
+  
+
   webserver:
     image: nginx:alpine
     container_name: webserver
@@ -27,10 +29,10 @@ services:
      - "8081:80"
 
   php-fpm:
-    build: docker/php-fpm
+    build: phpdocker/php-fpm
     container_name: php-fpm
     working_dir: /application
     volumes:
       # - ./server:/application
-      - .:/application
-      - ./docker/php-fpm/php-ini-overrides.ini:/etc/php/7.2/fpm/conf.d/99-overrides.ini
+    - ./api:/application
+    - ./phpdocker/php-fpm/php-ini-overrides.ini:/etc/php/7.2/fpm/conf.d/99-overrides.ini
